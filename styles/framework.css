@@ -244,7 +244,7 @@ ol > li:last-child, ul > li:last-child {
 /*//////////////////////////////////////*/
 
 body{
-	font-family:'Roboto', sans-serif;
+	font-family: 'Gotham','Roboto', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	color:#666;
 	font-size:12px;
@@ -297,7 +297,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 a:hover{
-	color:#2980b9;
+	color:#0190d9;
 	transition:all 200ms ease;
 }
 

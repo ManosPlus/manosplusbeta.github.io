@@ -5,27 +5,43 @@ body {
 #content {
     background-color: #131623 !important;
 }
+
+/* =======================================
+    GENERAL
+========================================== */
+.responsive-img {
+
+}
+
 /* =======================================
     PORTAL
 ========================================== */
 .portal {
-      background: linear-gradient(
-      rgba(19, 22, 35, 0.9),
-      rgba(19, 22, 35, 0.9)
-    ), url(../images/man-hands-working-technology.jpg) center top no-repeat scroll;
-    background-size: cover;
-     min-height: 100%;
-  min-width: 600px;
-
-  /* Set up proportionate scaling */
+  background: linear-gradient(
+  rgba(19, 22, 35, 0.9),
+  rgba(19, 22, 35, 0.9)
+  ), url(../images/man-hands-working-technology.jpg) center top no-repeat scroll;
+  background-size: cover;
+  min-height: 100%;
   width: 100%;
   height: auto;
-
-  /* Set up positioning */
   position: fixed;
   top: 0;
   left: 0;
 }
 .logo-portal  {
-    padding: 40px 0;
+  padding: 40px 0;
+}
+.logo-portal img {
+  display: block;
+  margin: 0 auto;
+}
+.logo-dic {
+  padding: 50% 0;
+}
+.logo-dic a {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 300;
+  overflow: visible;
 }
