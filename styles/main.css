@@ -37,11 +37,24 @@ body {
   margin: 0 auto;
 }
 .logo-dic {
-  padding: 50% 0;
+  padding: 30% 0;
 }
 .logo-dic a {
   color: #fff;
   font-size: 28px;
   font-weight: 300;
   overflow: visible;
+  text-align: center;
+  display: block;
+}
+.logo-dic a i {
+  display: block;
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+.logo-dic a span {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.2);
+  position: relative;
+  top: 10px;
 }
