@@ -56,13 +56,10 @@ body{
 
 
 .sidebar-logo{
-    background-image:url(../images/sidebar-logo.png);
+    background-image:url(../images/10_logo_web.svg);
     background-repeat:no-repeat;
-    width:160px;
-    height:180px;
+    height: 150px;
     background-size:160px 180px;
-    margin-top:30px;
-    margin-bottom:30px;
     margin-left:55px;
 }
 
@@ -83,9 +80,9 @@ body{
 
 .sidebar-header a i{
     width:53px;
-    height:72px;
+    height:42px;
     text-align:center;
-    line-height:72px;
+    line-height:42px;
     border-bottom:solid 1px rgba(255,255,255,0.05);
 }
 
@@ -93,11 +90,11 @@ body{
     font-size:14px;
     color:#bcbcbc;
     width:53px;
-    height:72px;
+
     float:left;
     border-right:solid 1px rgba(255,255,255,0.05);
-    border-left:solid 1px rgba(0,0,0,0.2);
-    border-bottom:solid 1px rgba(255,255,255,0.05);
+/*    border-left:solid 1px rgba(0,0,0,0.2);
+    border-bottom:solid 1px rgba(255,255,255,0.05);*/
     transition:all 250ms ease;
     background-color:rgba(0,0,0,0.1);
 }
@@ -108,10 +105,10 @@ body{
     transition:all 250ms ease;
 }
 
-.sidebar-header{
+/*.sidebar-header{
     border-bottom:solid 1px rgba(0,0,0,0.2);
     border-left:solid 1px rgba(255,255,255,0.05);
-}
+}*/
 
 
 .sidebar-divider{

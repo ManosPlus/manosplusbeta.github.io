@@ -3024,12 +3024,12 @@ table tr:hover td{
 /* Default demo styles */
 
 .snap-drawers {
-	background-image:url(../images/misc/menu-bg.png);
+	background-color: #1a1e29;
     background-size:100px 100px;
 }
 
 .snap-drawer {
-	background-image:url(../images/misc/menu-bg.png);
+	background-color: #1a1e29;
     background-size:100px 100px;
 }
 
