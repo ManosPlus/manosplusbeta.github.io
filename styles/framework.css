@@ -244,7 +244,7 @@ ol > li:last-child, ul > li:last-child {
 /*//////////////////////////////////////*/
 
 body{
-	font-family: 'Gotham','Roboto', sans-serif;
+	font-family: 'Raleway','Roboto', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	color:#666;
 	font-size:12px;
@@ -291,9 +291,10 @@ h5{
 }
 
 h1, h2, h3, h4, h5, h6{
-	font-family:'Roboto', sans-serif;
+	font-family:'Raleway','Roboto', sans-serif;
 	-webkit-font-smoothing: antialiased;
-	color:#1f1f1f;
+	color:#fff;
+	font-weight: 600;
 }
 
 a:hover{
@@ -337,9 +338,9 @@ a{
     }
 }
 
-.container{
+/*.container{
 	margin-bottom:30px;
-}
+}*/
 
 .no-bottom{
 	margin-bottom:0px;

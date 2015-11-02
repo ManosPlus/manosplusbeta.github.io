@@ -10,7 +10,7 @@ body {
     GENERAL
 ========================================== */
 .responsive-img {
-
+  max-width: 100%;
 }
 
 /* =======================================
@@ -57,4 +57,25 @@ body {
   color: rgba(255, 255, 255, 0.2);
   position: relative;
   top: 10px;
+}
+/* =======================================
+    HEADER
+========================================== */
+.header {
+  color: #fff;
+}
+.header .container {
+  padding: 20px 0;
+}
+.header .container .col-xs-8 {
+  line-height: 2.5;
+  color: #fff;
+}
+.header .container .col-xs-8 h4 {
+  font-weight: 500 !important;
+  font-size: 16px;
+  text-align: center;
+}
+.header a.open-menu:hover {
+  color: #333;
 }
