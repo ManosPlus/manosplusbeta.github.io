@@ -1,26 +1,20 @@
 body {
-    background-color: #131623 !important;
-
+  background-color: #131623 !important;
 }
 #content {
-    background-color: #131623 !important;
+  background-color: #131623 !important;
 }
-
 /* =======================================
     GENERAL
 ========================================== */
 .responsive-img {
   max-width: 100%;
 }
-
 /* =======================================
     PORTAL
 ========================================== */
 .portal {
-  background: linear-gradient(
-  rgba(19, 22, 35, 0.9),
-  rgba(19, 22, 35, 0.9)
-  ), url(../images/man-hands-working-technology.jpg) center top no-repeat scroll;
+  background: linear-gradient(rgba(19, 22, 35, 0.9), rgba(19, 22, 35, 0.9)), url(../images/man-hands-working-technology.jpg) center top no-repeat scroll;
   background-size: cover;
   min-height: 100%;
   width: 100%;
@@ -29,7 +23,7 @@ body {
   top: 0;
   left: 0;
 }
-.logo-portal  {
+.logo-portal {
   padding: 40px 0;
 }
 .logo-portal img {
@@ -86,4 +80,35 @@ body {
 .sidebar-header a i.icon {
   display: block;
   line-height: 3.4;
+}
+.snap-drawers {
+  position: relative;
+}
+/* =======================================
+    MIN-NAV
+========================================== */
+#min-nav ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#min-nav ul li {
+  list-style: none;
+  padding: 20px 40px;
+}
+#min-nav ul li:nth-child(even) {
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 20px 40px;
+}
+#min-nav ul li a {
+  display: flex;
+  align-items: flex-start;
+  text-align: center;
+}
+#min-nav ul li a span {
+  font-size: 26px;
 }

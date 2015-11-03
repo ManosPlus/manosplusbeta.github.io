@@ -1,0 +1,130 @@
+body {
+    background-color: #131623 !important;
+
+}
+#content {
+    background-color: #131623 !important;
+}
+
+/* =======================================
+    GENERAL
+========================================== */
+.responsive-img {
+  max-width: 100%;
+}
+
+/* =======================================
+    PORTAL
+========================================== */
+.portal {
+  background: linear-gradient(
+  rgba(19, 22, 35, 0.9),
+  rgba(19, 22, 35, 0.9)
+  ), url(../images/man-hands-working-technology.jpg) center top no-repeat scroll;
+  background-size: cover;
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.logo-portal  {
+  padding: 40px 0;
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.logo-dic {
+  padding: 30% 0;
+  a {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 300;
+    overflow: visible;
+    text-align: center;
+    display: block;
+    i {
+      display: block;
+      margin-bottom: 30px;
+      font-size: 40px;
+    }
+    span {
+      font-size: 14px;
+      color: rgba(255, 255, 255, 0.2);
+      position: relative;
+      top: 10px;
+      display: block;
+    }
+  }
+}
+
+/* =======================================
+    HEADER
+========================================== */
+.header {
+  color: #fff;
+  .container {
+    padding: 20px 0;
+    .col-xs-8 {
+      line-height: 2.5;
+      color: #fff;
+      h4 {
+        font-weight: 500 !important;
+        font-size: 16px;
+        text-align: center;
+      }
+    }
+  }
+  a.open-menu:hover {
+    color: #30c4f1;
+  }
+}
+
+/* =======================================
+    NAV
+========================================== */
+
+.sidebar-header a i.icon {
+  display: block;
+  line-height: 3.4;
+}
+.snap-drawers {
+  position: relative;
+}
+/* =======================================
+    MIN-NAV
+========================================== */
+#min-nav {
+
+  ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    li {
+      list-style: none;
+      padding: 20px 40px;
+      &:nth-child(even) {
+        border-left: 1px solid rgba(255,255,255, 0.2);
+        border-right: 1px solid rgba(255,255,255, 0.2);
+        padding: 20px 40px;
+      }
+      a {
+        display: flex;
+        align-items: flex-start;
+        text-align: center;
+
+        span {
+          font-size: 26px;
+        }
+      }
+
+    }
+  }
+}
+
