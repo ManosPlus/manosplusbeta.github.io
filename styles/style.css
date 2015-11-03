@@ -112,17 +112,19 @@ body{
 
 
 .sidebar-divider{
-    background-color:#191b1c;
+
     height:30px;
-    font-size:10px;
-    font-family:'Roboto', sans-serif;
+    font-size:12px;
+    font-family:'Gotham', sans-serif;
     text-transform:uppercase;
-    font-weight:800;
+    font-weight:500;
     color:#636464;
-    border-bottom:solid 1px rgba(255,255,255,0.1);
-    border-top:solid 1px rgba(255,255,255,0.1);
+
     line-height:30px;
     padding-left:30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .sidebar-navigation{
@@ -147,7 +149,7 @@ body{
     padding-left:70px;
     color:#FFFFFF;
     font-family:'Roboto', sans-serif;
-    border-bottom:solid 1px rgba(0,0,0,0.2);
+
     transition:all 350ms ease;
 }
 
@@ -162,16 +164,7 @@ body{
     color:#bcbdbd;
 }
 
-.sidebar-navigation li a i:last-child{
-    position:absolute;
-    height:60px;
-    width:60px;
-    text-align:center;
-    line-height:60px;
-    font-size:4px;
-    color:#bcbdbd;
-    left:205px;
-}
+
 
 .sidebar-navigation li .fa-caret-right{
     font-size:10px!important;

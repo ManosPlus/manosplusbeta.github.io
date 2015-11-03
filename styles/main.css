@@ -57,6 +57,7 @@ body {
   color: rgba(255, 255, 255, 0.2);
   position: relative;
   top: 10px;
+  display: block;
 }
 /* =======================================
     HEADER
@@ -78,4 +79,11 @@ body {
 }
 .header a.open-menu:hover {
   color: #30c4f1;
+}
+/* =======================================
+    NAV
+========================================== */
+.sidebar-header a i.icon {
+  display: block;
+  line-height: 3.4;
 }
