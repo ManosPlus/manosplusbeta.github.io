@@ -1,12 +1,12 @@
-body {
-  background-color: #131623 !important;
-}
-#content {
-  background-color: #131623 !important;
-}
 /* =======================================
     GENERAL
 ========================================== */
+body {
+  background-color: #1A1E29 !important;
+}
+#content {
+  background-color: #1A1E29 !important;
+}
 .responsive-img {
   max-width: 100%;
 }
@@ -87,28 +87,40 @@ body {
 /* =======================================
     MIN-NAV
 ========================================== */
+#min-nav {
+  background-color: #131623;
+}
 #min-nav ul {
   margin: 0;
   padding: 0;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 #min-nav ul li {
   list-style: none;
-  padding: 20px 40px;
+  text-align: center;
+  width: 33%;
+  margin: 14px 0;
 }
 #min-nav ul li:nth-child(even) {
-  border-left: 1px solid rgba(255, 255, 255, 0.2);
-  border-right: 1px solid rgba(255, 255, 255, 0.2);
-  padding: 20px 40px;
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
 }
 #min-nav ul li a {
   display: flex;
   align-items: flex-start;
   text-align: center;
+  padding: 6px;
 }
 #min-nav ul li a span {
+  width: 100%;
   font-size: 26px;
+  margin: 0 auto;
+  color: #fff;
+}
+#min-nav ul li a span:hover,
+#min-nav ul li a span .active {
+  color: #187dd3;
 }

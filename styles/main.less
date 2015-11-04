@@ -1,14 +1,16 @@
-body {
-    background-color: #131623 !important;
-
-}
-#content {
-    background-color: #131623 !important;
-}
-
+@blue-o: #1A1E29;
+@blue-c: #187dd3;
+@orange: #fc632c;
 /* =======================================
     GENERAL
 ========================================== */
+body {
+    background-color: @blue-o !important;
+
+}
+#content {
+    background-color: @blue-o !important;
+}
 .responsive-img {
   max-width: 100%;
 }
@@ -98,29 +100,39 @@ body {
     MIN-NAV
 ========================================== */
 #min-nav {
-
+  background-color: #131623;
   ul {
     margin: 0;
     padding: 0;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     li {
       list-style: none;
-      padding: 20px 40px;
+      text-align: center;
+      width: 33%;
+      margin: 14px 0;
+
       &:nth-child(even) {
-        border-left: 1px solid rgba(255,255,255, 0.2);
-        border-right: 1px solid rgba(255,255,255, 0.2);
-        padding: 20px 40px;
+        border-left: 1px solid rgba(255,255,255, 0.1);
+        border-right: 1px solid rgba(255,255,255, 0.1);
       }
       a {
         display: flex;
         align-items: flex-start;
         text-align: center;
-
+        padding: 6px;
         span {
+          width: 100%;
           font-size: 26px;
+          margin: 0 auto;
+          color: #fff;
+          &:hover, .active {
+            color: @blue-c;
+          }
+
+
         }
       }
 
