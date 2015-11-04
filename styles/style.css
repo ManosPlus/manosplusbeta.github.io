@@ -257,8 +257,8 @@ white-space: inherit*/
 
 .menu-wrapper{
     max-height:auto;
-    overflow-y:hidden;
-    position:fixed;
+    overflow: auto;
+    position: absolute;
     top:68px;
     width:100%;
     z-index:99999;
