@@ -124,3 +124,80 @@ body {
 #min-nav ul li a span .active {
   color: #187dd3;
 }
+/* =======================================
+  BUSCAR
+========================================== */
+.buscar input {
+  width: 100%;
+  padding: 14px 20px;
+  background-color: #ddd;
+  font-size: 16px;
+}
+.accordion {
+  padding: 10px 10px;
+  list-style: none;
+}
+.accordion li {
+  list-style: none;
+}
+.accordion li a {
+  border-bottom: 1px solid #dadada;
+  color: #0e73c9;
+  text-transform: uppercase;
+}
+.accordion li a .icon {
+  font-size: 40px;
+  margin-right: 10px;
+  vertical-align: middle;
+  color: #0e73c9;
+}
+.accordion li a .title {
+  font-size: 20px;
+}
+.accordion li a:after {
+  content: "\e199";
+  font-family: "budicon";
+  float: right;
+  line-height: 40px;
+  color: #dadada;
+  font-size: 20px;
+}
+.accordion li .acc-submenus {
+  padding: 20px 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 100%;
+}
+.accordion li .acc-submenus li {
+  padding: 2px;
+}
+.accordion li .acc-submenus li .rounded {
+  border: none !important;
+  font-size: 40px;
+  text-align: center;
+  background-color: inherit !important;
+  cursor: pointer;
+  padding: 2px 6px;
+}
+.accordion li .acc-submenus li .rounded:hover .icon,
+.accordion li .acc-submenus li .rounded .active .icon,
+.accordion li .acc-submenus li .rounded:hover .title,
+.accordion li .acc-submenus li .rounded .active .title {
+  color: #0e73c9;
+}
+.accordion li .acc-submenus li .rounded .icon {
+  display: block;
+  font-size: 60px;
+  text-align: center;
+  color: #4b5058;
+}
+.accordion li .acc-submenus li .rounded .title {
+  font-size: 13px;
+  text-align: center;
+  color: #3c3e4b;
+}

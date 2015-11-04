@@ -1,6 +1,8 @@
 @blue-o: #1A1E29;
 @blue-c: #187dd3;
 @orange: #fc632c;
+@blue: #0e73c9;
+@text: #3c3e4b;
 /* =======================================
     GENERAL
 ========================================== */
@@ -131,12 +133,89 @@ body {
           &:hover, .active {
             color: @blue-c;
           }
-
-
         }
       }
-
     }
   }
 }
+/* =======================================
+  BUSCAR
+========================================== */
+.buscar {
+  input {
+    width: 100%;
+    padding: 14px 20px;
+    background-color: #ddd;
+    font-size: 16px;
+  }
+}
+.accordion {
+  padding: 10px 10px;
+  list-style: none;
+  li {
+    list-style: none;
+    a {
+      border-bottom: 1px solid #dadada;
+      color: #0e73c9;
+      text-transform: uppercase;
+      .icon {
+        font-size: 40px;
+        margin-right: 10px;
+        vertical-align: middle;
+        color: @blue;
+      }
+      .title {
+        font-size: 20px;
+      }
+      &:after {
+        content: "\e199";
+        font-family: "budicon";
+        float: right;
+        line-height: 40px;
+        color: #dadada;
+        font-size: 20px;
+      }
+    }
+    .acc-submenus  {
+        padding: 20px 0;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        width: 100%;
+        li  {
+          padding: 2px;
+          .rounded {
+            border: none !important;
+            font-size: 40px;
+            text-align: center;
+            background-color: inherit !important;
+            cursor: pointer;
+            padding: 2px 6px;
+            &:hover, .active {
+              .icon, .title {
+                color: @blue;
+              }
+            }
+            .icon {
+              display: block;
+              font-size: 60px;
+              text-align: center;
+              color: #4b5058;
+            }
+            .title {
+              font-size: 13px;
+              text-align: center;
+              color: #3c3e4b;
+            }
 
+          }
+
+
+        }
+    }
+  }
+}

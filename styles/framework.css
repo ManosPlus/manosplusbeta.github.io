@@ -92,7 +92,7 @@ body {
 	margin: 0;
 	padding: 0;
 	overflow-x:hidden;
-	background-color: #131623 !important;
+	background-color: #3c3e4b !important;
 }
 
 body::-webkit-scrollbar {
@@ -111,7 +111,7 @@ a:hover{
 div, a, p, img, blockquote, form, fieldset, textarea, input, label, iframe, code, pre {
 	display: block;
 	position:relative;
-	overflow:hidden;
+/*	overflow:hidden;*/
 }
 
 /*	2. Typography  */

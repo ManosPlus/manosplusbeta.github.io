@@ -256,13 +256,11 @@ white-space: inherit*/
 /*SLide Menu*/
 
 .menu-wrapper{
-    max-height:200px;
+    max-height:auto;
     overflow-y:hidden;
     position:fixed;
     top:68px;
     width:100%;
-    padding-left:20px;
-    padding-right:20px;
     z-index:99999;
     border-bottom:solid 1px #ececec;
     background-color:#FFFFFF;
@@ -276,7 +274,8 @@ white-space: inherit*/
     transition:all 350ms ease-in;
 }
 
-.menu-wrapper em{
+
+{
     display:block;
     text-align:center;
     margin-top:10px;
