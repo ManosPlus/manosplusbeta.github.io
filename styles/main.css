@@ -53,6 +53,18 @@ body {
   top: 10px;
   display: block;
 }
+.nav-index ul {
+  list-style: none;
+}
+.nav-index ul li {
+  list-style: none;
+  float: left;
+  margin: 10px;
+}
+.nav-index ul li a {
+  padding: 50px;
+  background-color: red;
+}
 /* =======================================
     HEADER
 ========================================== */
@@ -101,7 +113,7 @@ body {
 #min-nav ul li {
   list-style: none;
   text-align: center;
-  width: 33%;
+  width: 25%;
   margin: 14px 0;
 }
 #min-nav ul li:nth-child(even) {
@@ -144,28 +156,29 @@ body {
   background-color: #f3f3f3;
   font-size: 16px;
 }
-.accordion {
+.accordions {
   padding: 10px 10px;
   list-style: none;
 }
-.accordion li {
+.accordions li {
   list-style: none;
 }
-.accordion li a {
+.accordions li a {
+  cursor: pointer;
   border-bottom: 1px solid #dadada;
   color: #0e73c9;
   text-transform: uppercase;
 }
-.accordion li a .icon {
+.accordions li a .icon {
   font-size: 40px;
   margin-right: 10px;
   vertical-align: middle;
   color: #0e73c9;
 }
-.accordion li a .title {
+.accordions li a .title {
   font-size: 20px;
 }
-.accordion li a:after {
+.accordions li a:after {
   content: "\e199";
   font-family: "budicon";
   float: right;
@@ -173,7 +186,14 @@ body {
   color: #dadada;
   font-size: 20px;
 }
-.accordion li .acc-submenus {
+.accordions li a .active:after {
+  content: "\e199";
+  transform: rotate(45deg);
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.accordions li .acc-submenus {
   padding: 20px 0;
   display: -webkit-box;
   display: -moz-box;
@@ -184,10 +204,10 @@ body {
   justify-content: flex-start;
   width: 100%;
 }
-.accordion li .acc-submenus li {
+.accordions li .acc-submenus li {
   padding: 2px;
 }
-.accordion li .acc-submenus li .rounded {
+.accordions li .acc-submenus li .rounded {
   border: none !important;
   font-size: 40px;
   text-align: center;
@@ -195,19 +215,19 @@ body {
   cursor: pointer;
   padding: 2px 6px;
 }
-.accordion li .acc-submenus li .rounded:hover .icon,
-.accordion li .acc-submenus li .rounded .active .icon,
-.accordion li .acc-submenus li .rounded:hover .title,
-.accordion li .acc-submenus li .rounded .active .title {
+.accordions li .acc-submenus li .rounded:hover .icon,
+.accordions li .acc-submenus li .rounded .active .icon,
+.accordions li .acc-submenus li .rounded:hover .title,
+.accordions li .acc-submenus li .rounded .active .title {
   color: #0e73c9;
 }
-.accordion li .acc-submenus li .rounded .icon {
+.accordions li .acc-submenus li .rounded .icon {
   display: block;
   font-size: 60px;
   text-align: center;
   color: #4b5058;
 }
-.accordion li .acc-submenus li .rounded .title {
+.accordions li .acc-submenus li .rounded .title {
   font-size: 13px;
   text-align: center;
   color: #3c3e4b;

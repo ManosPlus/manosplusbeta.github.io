@@ -1,8 +1,13 @@
 $(document).ready(function() {
-    $('.btn-cabeza').click(function() {
+    $('accordions li a').click(function() {
         $('.cabeza-superior').hide();
     });
 });
+
+
+
+
+
 
 
 
